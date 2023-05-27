@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import S1 from "./Components/S1";
+import Counter from "./Components/Counter";
+import Form1 from "./Components/Form1";
+import So from "./Components/So";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+    return (
+        <div>
+            {/* <S1 /> */}
+            {/* <Counter /> */}
+            {/* <Form1 /> */}
+            <So />
+        </div>
+    );
 }
 
 export default App;
+
